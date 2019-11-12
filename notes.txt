@@ -1,0 +1,1 @@
+Merlot theme documentation: https://github.com/pages-themes/merlot
