@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-div#no-downloads:hover {
+div#no-downloads span.inner:hover {
   background-position: 0 -197px;
 }
 a.root_link:hover {
