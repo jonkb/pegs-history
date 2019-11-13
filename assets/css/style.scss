@@ -3,7 +3,9 @@
 
 @import "{{ site.theme }}";
 
-a.root_link:hover {
+div#no-downloads:hover {
   background-position: 0 -197px;
+}
+a.root_link:hover {
   text-decoration: none;
 }
