@@ -33,7 +33,7 @@ If not, look in the shared [PEGS History google photos album](https://photos.goo
 		
 		img_src = img_folder+(fifth_year-1)+"_"+fifth_year+"_g5_trim.jpg";
 		alt_text = "5th grade "+(fifth_year-1)+"-"+fifth_year;
-		
+
 		document.getElementById("fifth_pics").innerHTML = "<img src="+img_src+" alt="+alt_text+" />";
 	}
 	
