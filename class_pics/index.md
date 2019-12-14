@@ -1,7 +1,7 @@
 # Class Photos by Graduation year
 
 Select the year you were in *first grade*: 
-<select id="1st_year"> <!-- onchange="load_photos();">-->
+<select id="first_year"> <!-- onchange="load_photos();">-->
 	<option value="2006">2006</option>
 	<option value="2005">2005</option>
 	<option value="2004">2004</option>
@@ -17,7 +17,7 @@ Select the year you were in *first grade*:
 We haven't uploaded most of the class pictures yet, so if they're here, then you're in luck. 
 If not, look in the shared [PEGS History google photos album](https://photos.google.com/share/AF1QipP3AVw6w-Ee8S4nkstATMq4AlQ6uB5JAQFLAI-ufwojwftqZPv52eHemkumOgt2sw?key=YUhFSHRIcVRSMDhHckZTajFXbThOTDdjR0NMMkNR)
 
-<div id="5th_pics">
+<div id="fifth_pics">
 </div>
 
 <script>
@@ -25,15 +25,14 @@ If not, look in the shared [PEGS History google photos album](https://photos.goo
 	img_folder = "/pegs-history/media/images/";
 	function load_photos(e) {
 		alert("Test2")
-		sel = document.getElementById("1st_year");
-		var sel_1st_yr = sel.value;
-		var 5th_year = sel_1st_yr + 4;
-		// var 5th_year = sel_grad_yr - 7;
-		// Load the appropriate year's pictures
-		alert("Selected: "+sel_1st_yr);
+		sel = document.getElementById("first_year");
+		var first_yr = sel.value;
+		alert("Selected: "+first_yr);
+		var fifth_year = first_yr + 4;
+		// var fifth_year = sel_grad_yr - 7;
 		
-		img_src = img_folder+(5th_year-1)+"_"+5th_year+"_g5_trim.jpg";
-		alt_text = "5th grade "+(5th_year-1)+"-"+5th_year;
+		img_src = img_folder+(fifth_year-1)+"_"+fifth_year+"_g5_trim.jpg";
+		alt_text = "5th grade "+(fifth_year-1)+"-"+fifth_year;
 		
 		document.getElementById("5th_pics").innerHTML = "<img src="+img_src+" alt="+alt_text" />";
 	}
