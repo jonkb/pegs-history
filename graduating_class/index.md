@@ -1,7 +1,7 @@
 # Class Photos by Graduation year
 
 Select the year you were in *first grade*: 
-<select id="1st_year" onchange="load_photos()">
+<select id="1st_year" onchange="load_photos();">
 	<option value="2006">2018</option>
 	<option value="2005">2017</option>
 	<option value="2004">2016</option>

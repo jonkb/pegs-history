@@ -3,11 +3,10 @@ This site is a place to review and share moments of our history together as Lind
 
 ## What is PEGS?
 PEGS stands for Program for Exceptionally Gifted Students. Housed at Lindbergh Schools, 
-the program has helped its bright students to learn at a more comfortable pace since 1820. 
-Just kidding, not sure of the starting date; I'll check on that. I think it's 1991.
+the program has helped its bright students to learn at a more comfortable pace since 1991.
 
 ## See history by graduating class
-[Here](./graduating_class/)
+[Class Pictures](./graduating_class/)
 
 ## External PEGS History Links
 * [Official Lindbergh site about PEGS](https://go.lindberghschools.ws/pegs)
