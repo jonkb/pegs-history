@@ -34,11 +34,12 @@ If not, look in the shared [PEGS History google photos album](https://photos.goo
 		img_src = img_folder+(fifth_year-1)+"_"+fifth_year+"_g5_trim.jpg";
 		alt_text = "5th grade "+(fifth_year-1)+"-"+fifth_year;
 		
-		document.getElementById("5th_pics").innerHTML = "<img src="+img_src+" alt="+alt_text" />";
+		document.getElementById("fifth_pics").innerHTML = "<img src="+img_src+" alt="+alt_text" />";
 	}
 	
-	sel = document.getElementById("1st_year");
-	sel.addEventListener("change", load_photos);
+	sel = document.getElementById("first_year");
+	sel.onchange = load_photos;
+	//sel.addEventListener("change", load_photos);
 </script>
 <!--
 [2016](./2016.html)
