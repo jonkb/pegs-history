@@ -21,6 +21,7 @@ of other PEGS alumni would be plenty.
 
 ## How can I help?
 **This site is a work in progress**
+
 If you'd like to help out, please post any interesting PEGS-related pictures you have in the [Shared Google Photos Album](https://photos.google.com/share/AF1QipP3AVw6w-Ee8S4nkstATMq4AlQ6uB5JAQFLAI-ufwojwftqZPv52eHemkumOgt2sw?key=YUhFSHRIcVRSMDhHckZTajFXbThOTDdjR0NMMkNR).
 
 If you're into programming, feel free to work on this site via the GitHub link below. Let's make this happen.
