@@ -1,11 +1,11 @@
 # Class Photos by Graduation year
 
 Select the year you were in *first grade*: 
-<select id="1st_year" onchange="load_photos();">
-	<option value="2006">2018</option>
-	<option value="2005">2017</option>
-	<option value="2004">2016</option>
-	<option value="2003">2015</option>
+<select id="1st_year"> <!-- onchange="load_photos();">-->
+	<option value="2006">2006</option>
+	<option value="2005">2005</option>
+	<option value="2004">2004</option>
+	<option value="2003">2003</option>
 </select>
 
 *Note: We would have said put in your graduating class, 
@@ -14,7 +14,7 @@ Select the year you were in *first grade*:
 <!--*Note: Put in the year you would have graduated, without skipping any grades. 
 *For example, if you were in 5th grade in 2009-2010, select 2017 even if you graduated in 2016-->
 
-We haven't uploaded most of the class pictures yet, so if they're here, then congratulations. 
+We haven't uploaded most of the class pictures yet, so if they're here, then you're in luck. 
 If not, look in the shared [PEGS History google photos album](https://photos.google.com/share/AF1QipP3AVw6w-Ee8S4nkstATMq4AlQ6uB5JAQFLAI-ufwojwftqZPv52eHemkumOgt2sw?key=YUhFSHRIcVRSMDhHckZTajFXbThOTDdjR0NMMkNR)
 
 <div id="5th_pics">
@@ -23,7 +23,7 @@ If not, look in the shared [PEGS History google photos album](https://photos.goo
 <script>
 	alert("Test1");
 	img_folder = "/pegs-history/media/images/";
-	function load_photos() {
+	function load_photos(e) {
 		alert("Test2")
 		sel = document.getElementById("1st_year");
 		var sel_1st_yr = sel.value;
@@ -37,12 +37,9 @@ If not, look in the shared [PEGS History google photos album](https://photos.goo
 		
 		document.getElementById("5th_pics").innerHTML = "<img src="+img_src+" alt="+alt_text" />";
 	}
-	/* Alternative method
-	sel = document.getElementById("grad_year");
-	sel.addEventListener("change", function(e){
-		// Load the appropriate year's pictures
-		alert("Selected":);
-	});*/
+	
+	sel = document.getElementById("1st_year");
+	sel.addEventListener("change", load_photos);
 </script>
 <!--
 [2016](./2016.html)
