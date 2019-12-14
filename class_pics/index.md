@@ -21,20 +21,18 @@ If not, look in the shared [PEGS History google photos album](https://photos.goo
 </div>
 
 <script>
-	alert("Test1");
 	img_folder = "/pegs-history/media/images/";
 	function load_photos(e) {
-		alert("Test2")
 		sel = document.getElementById("first_year");
-		var first_yr = sel.value;
-		alert("Selected: "+first_yr);
+		var first_yr = Number(sel.value);
+		// alert("Selected: "+first_yr);
 		var fifth_year = first_yr + 4;
 		// var fifth_year = sel_grad_yr - 7;
 		
 		img_src = img_folder+(fifth_year-1)+"_"+fifth_year+"_g5_trim.jpg";
 		alt_text = "5th grade "+(fifth_year-1)+"-"+fifth_year;
 
-		document.getElementById("fifth_pics").innerHTML = "<img src="+img_src+" alt="+alt_text+" />";
+		document.getElementById("fifth_pics").innerHTML = "<img src=\""+img_src+"\" alt=\""+alt_text+"\" />";
 	}
 	
 	sel = document.getElementById("first_year");
