@@ -1,4 +1,4 @@
-# Class Photos by Graduation year
+# Class Photos
 
 Select the year you were in *first grade*: 
 <select id="first_year"> <!-- onchange="load_photos();">-->
